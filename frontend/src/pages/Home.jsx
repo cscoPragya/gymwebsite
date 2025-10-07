@@ -25,7 +25,7 @@ const Home = () => {
             </div>
 
             {/* Tagline Section */}
-            <div className="absolute top-[35%] w-full flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-10 h-[50%] gap-6">
+            <div className="absolute top-[25%] w-full flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-10 h-[50%] gap-6">
                 {/* Icons Row */}
                 <div className="flex flex-wrap justify-center items-center gap-5 sm:gap-8 md:gap-10">
                     <span className="flex justify-center items-center gap-2 text-lg sm:text-xl md:text-2xl font-bold text-white">

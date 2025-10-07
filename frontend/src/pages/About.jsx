@@ -72,7 +72,7 @@ const About = () => {
                         ].map((item, idx) => (
                             <div key={idx} className="bg-white shadow-lg hover:shadow-red-400 transition-all duration-300 p-6 rounded-2xl hover:scale-105">
                                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>
-                                <p className="text-gray-600">{item.text}</p>
+                                <p className="text-gray-600 text-justify">{item.text}</p>
                             </div>
                         ))}
                     </div>
