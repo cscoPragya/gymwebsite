@@ -12,7 +12,7 @@ const About = () => {
                 {/* Background Image */}
                 <img
                     className="absolute w-full h-full object-cover"
-                    src="../public/bg2.jpg"
+                    src="/bg2.jpg"
                     alt="Background"
                 />
 
@@ -38,7 +38,7 @@ const About = () => {
                         <div className="md:w-1/2 flex justify-center items-center">
                             <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-[40%] md:h-auto rounded-2xl overflow-hidden border-4 border-red-600 shadow-[0_0_25px_rgba(255,0,0,0.6)] hover:scale-105 transition-transform duration-500 rotate-270">
                                 <img
-                                    src="../public/bg.webp"
+                                    src="/bg.webp"
                                     alt="Gym"
                                     className="w-full h-full object-cover"
                                 />
@@ -83,7 +83,7 @@ const About = () => {
             <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
                 <img
                     className="absolute w-full h-full object-cover"
-                    src="../public/bg2.jpg"
+                    src="/bg2.jpg"
                     alt="Background"
                 />
                 <div className="absolute w-full h-full bg-black/70 backdrop-blur-sm"></div>
@@ -101,7 +101,7 @@ const About = () => {
                         <div className="md:w-1/2 flex justify-center items-center">
                             <div className="relative w-64 sm:w-72 md:w-80 h-64 sm:h-72 md:h-80 border-4 border-red-600 rounded-xl overflow-hidden shadow-[0_0_40px_rgba(255,0,0,0.6)] hover:scale-105 transition-transform duration-500">
                                 <img
-                                    src="../public/trainer.jpg"
+                                    src="/trainer.jpg"
                                     alt="Trainer"
                                     className="object-cover object-top w-full h-full"
                                 />
@@ -119,8 +119,8 @@ const About = () => {
                 </h3>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                     {[
-                        "../public/g1.jpg", "../public/g2.jpg", "../public/g3.jpg", "../public/g4.jpg",
-                        "../public/g5.jpg", "../public/g6.jpg", "../public/g7.jpg", "../public/g8.jpg", "../public/g9.jpg"
+                        "/g1.jpg", "/g2.jpg", "/g3.jpg", "/g4.jpg",
+                        "/g5.jpg", "/g6.jpg", "/g7.jpg", "/g8.jpg", "/g9.jpg"
                     ].map((src, index) => (
                         <div key={index} className="relative aspect-square overflow-hidden rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-500">
                             <img src={src} alt={`Equipment ${index + 1}`} className="object-cover w-full h-full" />
