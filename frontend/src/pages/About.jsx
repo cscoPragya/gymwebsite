@@ -94,7 +94,7 @@ const About = () => {
                         <div className="md:w-1/2 bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-[0_0_25px_rgba(255,0,0,0.3)] border border-red-700/30 hover:shadow-red-600/50 transition duration-500">
                             <h3 className="text-2xl font-semibold text-red-500 mb-4">Vikas Kumar</h3>
                             <p className="text-gray-200 text-base sm:text-lg md:text-lg text-justify leading-relaxed">
-                                With over <span className="text-red-400 font-semibold">5 years</span> of professional training experience, Raghav Singh is more than a fitness coach — he’s a mentor who believes in pushing limits with purpose. His philosophy revolves around balance, dedication, and discipline — helping every client unlock their best version, both physically and mentally.
+                                With over <span className="text-red-400 font-semibold">5 years</span> of professional training experience, Vikas Kumar is more than a fitness coach — he’s a mentor who believes in pushing limits with purpose. His philosophy revolves around balance, dedication, and discipline — helping every client unlock their best version, both physically and mentally.
                             </p>
                         </div>
 
